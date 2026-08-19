@@ -48,6 +48,11 @@ A single-page BI dashboard analyzing public WiFi subscriber behavior, churn risk
 - [Executive Summary](#executive-summary)
 - [Business Context](#business-context)
 - [Business Requirements](#business-requirements)
+- [Data](#data)
+    - [Dataset](#dataset)
+    - [Dataset Includes](#dataset-includes)
+    - [Data Fields](#data-fields)
+    - [Data Usage](#data-usage)
 - [What the Dashboard Answers](#what-the-dashboard-answers)
     - [Revenue](#revenue)
     - [Product & Category](#product--category)
@@ -133,6 +138,60 @@ The dashboard was designed around the following business requirements:
 | KPI Monitoring         | What is the current business position?     | Executive reporting                 |
 
 ---
+
+##  Data
+
+The dataset used in this project is publicly available on Kaggle and contains UAE beverage sales data covering **2020–2025**.
+
+The dataset was prepared for Business Intelligence and data analytics use cases, including sales performance, product/category analysis, store performance, customer analysis, discount analysis, and geographic analysis.
+
+###  Dataset
+
+**Kaggle:** [UAE Beverages Sales Dataset (2020–2025)](https://www.kaggle.com/datasets/ajitjha01/sales-dataset-uae-beverages/data)
+
+### Dataset Includes
+
+| Area | Description |
+|---|---|
+| **Time** | Sales data from 2020–2025 |
+| **Product** | Beverage products and categories |
+| **Sales** | Sales, net sales, quantity and pricing |
+| **Store** | Store and store-type information |
+| **Geography** | UAE city-level information |
+| **Customer** | Customer demographic information |
+| **Discount** | Discount percentage applied to sales |
+| **Rating** | Customer/product rating |
+
+### Data Fields
+
+| Column | Description |
+|---|---|
+| `Date` | Date of the sales transaction |
+| `Year` | Year extracted from the transaction date |
+| `Month` | Month of the transaction |
+| `City` | UAE city where the sale occurred |
+| `Store` | Store where the transaction was recorded |
+| `Store_Type` | Type of store |
+| `Category` | Beverage category |
+| `Product_Name` | Name of the beverage product |
+| `Quantity` | Number of units sold |
+| `Unit_Price` | Price per unit |
+| `Sales` | Gross sales value before discount |
+| `Discount_%` | Discount percentage applied |
+| `Net_Sales` | Sales value after discount |
+| `Gender` | Customer gender category |
+| `Rating` | Customer/product rating |
+
+### Data Usage
+
+The dataset is used as the common data source for the project's three BI implementations:
+
+**Kaggle Dataset → Data Preparation → KPI Development → Power BI / Tableau / Looker Studio**
+
+This approach keeps the business logic and analytical questions consistent across all three platforms.
+
+> **Note:** The dataset is intended for educational, analytical, portfolio, and Business Intelligence purposes.
+
 ##  What the Dashboard Answers
 
 This interactive dashboard is purpose-built to answer the most critical business questions across key dimensions:
