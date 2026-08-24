@@ -1,4 +1,4 @@
-<div align="center">
+77<div align="center">
 
 <img width="742" height="462" alt="image" src="https://github.com/user-attachments/assets/9c7a5987-ed54-41a0-8f41-9894d3c1bfb9" />
 
@@ -26,9 +26,6 @@
 
 ---
 ## Live Demos
-
-A single-page BI dashboard analyzing public WiFi subscriber behavior, churn risk, and revenue leakage for Q2 2026 — built in Power BI, Tableau, and Looker Studio from the same dataset.
-
 
 
 | Platform | Link |
