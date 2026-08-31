@@ -1,4 +1,4 @@
-77<div align="center">
+<div align="center">
 
 <img width="742" height="462" alt="image" src="https://github.com/user-attachments/assets/9c7a5987-ed54-41a0-8f41-9894d3c1bfb9" />
 
